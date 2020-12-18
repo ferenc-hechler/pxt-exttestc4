@@ -1,7 +1,7 @@
 {
     "name": "exttestc",
-    "version": "0.3.4",
-    "description": "test for calliope extensions-v034.",
+    "version": "0.3.5",
+    "description": "test for calliope extensions-v035.",
     "license": "MIT",
     "dependencies": {
         "core": "*"

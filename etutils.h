@@ -9,7 +9,7 @@
 
 //void throwError(const char *errMsg);
 
-void etlog(const char *msg);
+void log(const char *msg);
 //void logFloat(float f);
 //void logInt(int i);
 

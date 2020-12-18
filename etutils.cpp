@@ -177,7 +177,7 @@ void throwError(const char *errMsg) {
 }
 */
 
-void etlog(const char *msg) {
+void log(const char *msg) {
 //	uBit.display.scroll(msg);
     uBit.serial.send(msg);
 }

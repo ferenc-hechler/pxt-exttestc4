@@ -75,9 +75,18 @@ removed duplicate code in exttestc.cpp
 + CALLIOPE FULL
 - MICROBIT HW
 
-## v0.3.4
+### v0.3.4
 
 reduced etutils.h/.cpp, renamed log() to etlog()
+
++ CALLIOPE FULL
++ MICROBIT FULL
+
+### v0.3.5:
+
+renamed etlog() back to log()
+
+
 
 
 ## ~ hint
