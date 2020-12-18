@@ -2,14 +2,14 @@
 
 #include "etutils.h"
 
-//#include<stdio.h>
-#include<stdarg.h>
-//#include<string.h>
-//#include <math.h>
-//#include <float.h>
-//#include <iostream>
+////#include<stdio.h>
+//#include<stdarg.h>
+////#include<string.h>
+////#include <math.h>
+////#include <float.h>
+////#include <iostream>
 
-
+/*
 // from: https://github.com/espressif/arduino-esp32/blob/master/cores/esp32/Print.cpp
 size_t float2char(char* buf, float number, uint8_t digits) {
   size_t n = 0;
@@ -175,12 +175,14 @@ void throwError(const char *errMsg) {
         }
 	}
 }
+*/
 
-void log(const char *msg) {
+void etlog(const char *msg) {
 //	uBit.display.scroll(msg);
     uBit.serial.send(msg);
 }
 
+/*
 void logFloat(float f) {
 	char buf[100];
 	float2char(buf, f, 3);
@@ -192,3 +194,4 @@ void logInt(int i) {
 	sprintf(buf, "%d", i);
 	log(buf);
 }
+*/

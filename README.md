@@ -72,8 +72,12 @@ Bug in exttestc.cpp!
 
 removed duplicate code in exttestc.cpp
 
++ CALLIOPE FULL
+- MICROBIT HW
 
+## v0.3.4
 
+reduced etutils.h/.cpp, renamed log() to etlog()
 
 
 ## ~ hint
